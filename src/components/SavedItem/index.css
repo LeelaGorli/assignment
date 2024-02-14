@@ -1,0 +1,24 @@
+.saved-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+.thumbnail-img {
+  height: 250px;
+  width: 300px;
+  margin-right: 10px;
+}
+.dark-save-item {
+  background-color: black;
+}
+.light-save-item {
+  background-color: white;
+}
+.saved-text {
+  color: #909090;
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-bottom: 10px;
+}

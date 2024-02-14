@@ -1,0 +1,46 @@
+.darkVideo {
+  background-color: #181818;
+  height: 600px;
+  width: 450px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.lightVideo {
+  background-color: #f9f9f9;
+  height: 600px;
+  width: 250px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.darkText {
+  color: #e2e8f0;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+}
+.lightText {
+  color: black;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+}
+.thumbnail-img {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.channellogo-details-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.logo-img {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+.views-date-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

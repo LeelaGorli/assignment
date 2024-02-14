@@ -1,0 +1,110 @@
+.sidebar-home-container {
+  display: flex;
+  flex-direction: row;
+}
+.banner-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png');
+  background-size: cover;
+  height: 250px;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.banner-logo {
+  height: 30px;
+  width: 90px;
+  margin-bottom: 20px;
+}
+.banner-text {
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  margin-bottom: 20px;
+}
+.bannerbutton {
+  background-color: transparent;
+  padding: 20px;
+  border: solid 2px black;
+  color: black;
+  font-size: 18px;
+}
+.close-button {
+  background-color: transparent;
+  border-width: 0px;
+}
+.close-icon {
+  color: black;
+  font-size: 20px;
+}
+.dark-home {
+  background-color: #181818;
+  height: 100vh;
+  overflow: auto;
+  padding: 20px;
+}
+.searchInputContainer {
+  height: 30px;
+  width: 350px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: transparent;
+}
+.search {
+  height: 100%;
+  width: 290px;
+}
+.searchbutton {
+  background-color: #909090;
+  color: #383838;
+  font-size: 15px;
+  height: 100%;
+  width: 60px;
+  padding: 10px;
+}
+.light-home {
+  background-color: #f9f9f9;
+  height: 100vh;
+  overflow: auto;
+  padding: 20px;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.darkFailure {
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.lightFailure {
+  color: black;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.retry-button {
+  color: white;
+  background-color: blue;
+  padding: 20px;
+  font-size: 15px;
+}
+.videolist-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.empty-img {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 20px;
+}
